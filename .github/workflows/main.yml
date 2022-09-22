@@ -35,7 +35,7 @@ jobs:
           - skr-a0
           - star2qltechn
           - trident
-    steps:
+    steps: 
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Extract certificate
